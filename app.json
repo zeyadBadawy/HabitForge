@@ -3,11 +3,13 @@
     "name": "HabitForge",
     "slug": "HabitForge",
     "version": "1.0.0",
+    "newArchEnabled": true,
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.HabitForge"
     },
     "android": {
       "adaptiveIcon": {
